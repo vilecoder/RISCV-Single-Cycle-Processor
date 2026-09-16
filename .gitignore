@@ -1,0 +1,43 @@
+# ==========================================
+# Vivado / FPGA Build & Temporary Files
+# ==========================================
+*.log
+*.jou
+*.mif
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.gen/
+*.sim/
+*.xil/
+.srcs/sources_1/bd/*/ip/*
+!*.xci
+
+# ==========================================
+# RISC-V Software / Toolchain Outputs
+# ==========================================
+# Compiled binaries and object files
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.dump
+*.map
+
+# Simulation and log outputs
+*.vcd
+*.fst
+simv*
+csrc/
+*.daidir
+
+# IDE / Editor specific files (VS Code, Eclipse, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
